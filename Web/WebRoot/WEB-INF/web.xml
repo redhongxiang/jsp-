@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>student</servlet-name>
+  <servlet-class>common.student</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>students</servlet-name>
+    <servlet-class>common.students</servlet-class>
+  </servlet>
+
+ <servlet-mapping>
+  <servlet-name>student</servlet-name>
+  <url-pattern>/servlet/student</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>students</servlet-name>
+    <url-pattern>/servlet/students</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the description of my J2EE component</display-name>
+        <servlet-name>peplo</servlet-name>
+        <servlet-class>common.peplo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>peplo</servlet-name>
+        <url-pattern>/servlet/peplo</url-pattern>
+    </servlet-mapping>
+</web-app>

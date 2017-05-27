@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions" lang="en">
+	<head>
+		<meta name="keywords" content="enter,your,keywords,here"/>
+		<meta name="description" content="A short description of this page."/>
+		<meta name="content-type" content="text/html; charset=gb2312"/>
+    
+		<!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+		<title>login</title>
+		     <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+             <script type="text/javascript" src="js/yz.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
+<body>
+<div class="container">
+	<div class="top">
+    <div class="logo">
+    <img src="images/3.png">
+    <span class="hy">欢迎登陆</span>
+    </div>
+    <div class="phone">
+    <span class="number"><span></span>400-12367895</span>
+    <span class="contact"><span></span><a>在线客服</a></span>
+    </div>
+    </div>
+    <div class="middle">
+    <div class="login">
+    <form id="submit" method="post" action="servlet/student">
+    <ul class="ul0">
+    <li id="login" class="active">登录</li>
+        <li id="sign">注册</li>
+        </ul>
+        <ul id="ul1">
+        <li><span class="spaa">用户名:</span><input type="text" id="user1" name="username"></li>
+        <li><span class="spaa">密码:</span><input type="password" id="pwd1" name="password"></li>
+        <li class="submit" id="denglu">登录</li>
+        </ul>
+       </form>
+         <form id="submit1" action="servlet/student" method="get">
+        <ul id="ul2">
+        <li><span class="spaa">用户名:</span><input type="text" id="user" name="username"><br><span id="useryz"></span></li>
+        <li><span class="spaa">密码:</span><input type="password" id="pwd" name="password"><br><span id="pwdyz"></span></li>
+         <li><span class="spaa">确认密码:</span><input type="password" id="pwd2"><br><span id="pwdyz2"></span></li>
+          <li class="submit" id="zhuce">立即注册</li>
+        </ul>
+		</form>
+    </div>
+    </div>  
+ 	<div class="foot">
+	 	<ul>
+ 			<li>首页</li>
+ 			<li>关于我们</li>
+ 			<li>媒体报道</li>
+ 			<li>联系方式</li>
+ 			<li>企业团购</li>
+ 			<li>友情链接</li>
+ 			<li>在线补款</li>
+ 			<li>选择我们交友网</li>
+ 		</ul>
+ 	</div>
+</div>
+</body>
+</html>

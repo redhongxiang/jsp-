@@ -1,0 +1,154 @@
+body,ul,h4,li{
+    	margin:0;
+	padding:0;
+    }
+body{
+	background:#f5f5f5;
+	}
+	.usercount{
+	position:absolute;
+	left:830px;
+	color:#d83473;
+	top:165px;
+	}
+	.ul3 li{
+	margin-left:20px;
+	margin-top:10px;
+	}
+	.ul3 li:hover{
+	cursor:pointer;
+	color:#f13d87;
+	}
+	.imghead{
+	width:100px;
+	margin-top:10px;
+	}
+	.ul3{
+	margin-bottom:10px;
+	}
+	h4{
+	margin-top:10px;
+	color:#f13d87;
+	text-align:center;
+	}
+	.bt{
+	font-size:36px;
+	color:pink;
+	float:left;
+	margin-left:5%;
+	}
+	.contents{
+	width:100%;
+	}
+	.header{
+	height:80px;
+	width:100%;
+	line-height:80px;
+	overflow:hidden;
+	}
+	.headname{
+	font-size:36px;
+	color:red;
+	float:right;
+	margin-right:5%;
+	}
+	.hy{
+	color:black;
+	}
+	.content{
+	padding:10px;
+	width:100%;
+	background:#fff;
+	float:left;
+	margin-left:20px;
+	overflow:hidden;
+	}
+	.main{
+	width:80%;
+	overflow:hidden;
+	}
+	.center{
+	overflow:hidden;
+	}
+	.section{
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	position:relative;
+	align:center;
+	overflow:hidden;
+	}
+	.section .imga{
+	width:100%;
+	}
+	.left1{
+	background:#fff;
+	width:20%;
+	float:left;
+	}
+	.form1{
+	margin-top:10px;
+	float:left;
+	}
+	.vip{
+	margin-left:6px;
+	margin-right:6px;
+	}
+	ul{
+	list-style:none;
+	}
+	.navs{
+	    background: #c70067;
+    border: 1px solid #af0056;
+    border-bottom: 1px solid #9a004c;
+    font-size: 14px;
+    background-image: -webkit-linear-gradient(left,#ae0051,#c70067,#c70067,#ae0051);
+    box-shadow: inset 0 -1px 0 #c10075;
+    height: 43px;
+    width:100%;
+	}
+	.ul1 li{
+	float:left;
+	width:25%;
+	}
+	.vipimgs{
+	width:100%;
+	}
+	.ul1 li.list1{
+	background:#9a004c;
+	}
+	.ul1 li:hover{
+	background:#de0371;
+	}
+	.ul1{
+	color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	font-size:20px;
+	line-height:43px;
+	overflow:hidden;
+	text-align:center;
+	}
+	.container{
+	margin:8px;
+	float:left;
+	margin-right:0px;
+	}
+	.banner{
+	position:relative;
+	overflow:hidden;
+	background:#fff;
+	}
+	.banner div.right1{
+	padding-top:30px;
+	padding-left:50px;
+	background-color:#f7f4f2;
+	color:#999;
+	float:left;
+	width:345px;
+	height:275px;
+	margin:8px;
+	margin-left:0px;
+	font-size:15px;
+	}
