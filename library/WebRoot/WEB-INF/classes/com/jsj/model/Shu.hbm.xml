@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+
+    <class name="com.jsj.model.Shu" table="tushu">
+        <id name="id" column="id" type="int"/>
+        <property name="shuhao" type="string"/>
+        <property name="shuming" type="string"/>
+        <property name="chubanshe" type="string"/>
+        <property name="zuozhe" type="string"/>
+    </class>
+
+</hibernate-mapping>

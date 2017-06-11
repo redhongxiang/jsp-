@@ -9,6 +9,7 @@ $("#user").blur(function(){
 				$("#useryz").html("");
 				if($("#pwd").val()!=="" && $("#pwd").val()==$("#pwd2").val()){
 					$("#zhuce").click(function(){
+						$(".form2").attr("action","example/insert");
 						$("#submit1").submit();
 						});
 					
@@ -26,6 +27,7 @@ $("#pwd2").blur(function(){
 			}
 	if($("#user").val().length>6 && $("#pwd").val()!=""){
 		$("#zhuce").click(function(){
+			$(".form2").attr("action","example/insert");
 			$("#submit1").submit();
 			});
 		
@@ -59,7 +61,9 @@ $("#pwd").blur(function(){
 				}
 	});
 $("#denglu").click(function(){
+	$(".form1").attr("action","example/login");
 	$("#submit").submit();
+
 	});
 
 });
